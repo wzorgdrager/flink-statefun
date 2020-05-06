@@ -38,7 +38,6 @@ services:
       - "6123"
     ports:
       - "8081:8081"
-    command: jobmanager
     environment:
       - ROLE=master
       - MASTER_HOST=master
@@ -50,7 +49,6 @@ services:
     expose:
       - "6121"
       - "6122"
-    command: taskmanager
     depends_on:
       - master
       - kafka-broker

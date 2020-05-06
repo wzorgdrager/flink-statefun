@@ -1,4 +1,4 @@
-from messages_pb2 import SeenCount, GreetRequest, GreetResponse
+from greeter.messages_pb2 import SeenCount, GreetRequest, GreetResponse
 
 from statefun import StatefulFunctions
 from statefun import RequestReplyHandler

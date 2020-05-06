@@ -25,7 +25,7 @@ import random
 
 from kafka.errors import NoBrokersAvailable
 
-from messages_pb2 import GreetRequest, GreetResponse
+from generator.messages_pb2 import GreetRequest, GreetResponse
 
 from kafka import KafkaProducer
 from kafka import KafkaConsumer
